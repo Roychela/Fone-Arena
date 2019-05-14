@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Modak|Playfair+Display");
+/* Css Variables */
+
 button {
     align-items: center;
     text-align: center;
@@ -5,4 +8,9 @@ button {
 
 .card-small{
     width: 250px;
+}
+
+body {
+    font-family: 'Modak', cursive;
+    font-family: 'Playfair Display', serif;
 }
