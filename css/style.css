@@ -1,24 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Modak|Playfair+Display");
-/* Css Variables */
-
-button {
-    align-items: center;
-    text-align: center;
-}
-
-.card-small{
-    width: 100px;
-}
-
-body {
-    font-family: 'Modak', cursive;
-    font-family: 'Playfair Display', serif;
-}
-
-.showcase{
+body{
     background-color: black;
-    background-size: 100% 100%;
-    height: 100%;
-    width:100%;
-    /* padding:200px; */
 }
