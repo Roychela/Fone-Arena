@@ -3,22 +3,33 @@ body{
     
 }
 .nav-wrapper{
-    background-color: red;
+    
     box-shadow: 0px 1px 10px #5E5E5E;
     text-shadow: 0 0 0.3em #464646;
     font-weight: bold;
+    padding: 0px 10px;
+    background-color: red;
+    min-height: 120px;
+    text-align: left;
     
     
 }
+;
+   
+
+#nav-mobile{
+    background-color: rgb(224, 12, 12);
+}
+#nav{
+    text-align: center;
+}
 .span-logo {
-    margin-top:-100px;
     display: inline-block;
     vertical-align: top;
     height: 50px;
-    width: 152px;
-    margin-top:0px;
-}
-.span-logo img{ 
-    width:auto; 
-    height:auto;
-}
+    width: 50px;
+    }
+    .logo-img{
+        float: none;
+        margin: 0px 100px 15px 520px;
+    }
