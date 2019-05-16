@@ -6,3 +6,26 @@
   padding: 0px 10px;
   text-align: left;
 }
+h3 {
+  color: red;
+}
+h5 {
+  color: red;
+}
+h1 {
+  text-align: center;
+  color: red;
+  padding: 20px;
+}
+.latest {
+  background: black;
+  opacity: 0.9;
+  background-size: 100%;
+}
+#footr {
+  background: red;
+  font-weight: bold;
+  box-shadow: 0px 1px 10px #5E5E5E;
+  text-shadow: 0 0 0.3em #464646;
+  padding: 0px 10px;
+  }
