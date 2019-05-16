@@ -1,0 +1,8 @@
+.clr {
+  background: red;
+  box-shadow: 0px 1px 10px #5E5E5E;
+  text-shadow: 0 0 0.3em #464646;
+  font-weight: bold;
+  padding: 0px 10px;
+  text-align: left;
+}
