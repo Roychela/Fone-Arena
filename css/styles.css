@@ -11,3 +11,13 @@ h3 {
 }
 h5 {
   color: red;
+}
+h1 {
+  text-align: center;
+  color: red;
+  padding: 20px;
+}
+.latest {
+  background: black;
+  opacity: 0.9;
+  background-size: 100%;
