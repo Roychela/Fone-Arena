@@ -1,8 +1,13 @@
+
 / floating action button/ /
-  $(document).ready(function () {
+  $(document).ready(function () 
     $('.fixed-action-btn').floatingActionButton();
     $('.dropdown-trigger').dropdown();
   });
+  $(document).ready(function(){
+   $('.slider').slider();
+   $('.dropdown-trigger').dropdown();
+ });
 
 $("#submitbutton").click(function () {
   var messageHere = (document.getElementById("messageHere").value);
@@ -14,10 +19,3 @@ $("#submitbutton").click(function () {
     alert("Fill out form and submit");
   }
 });
-
-
-
-
-
-
-
