@@ -27,9 +27,19 @@
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">FONEARENA</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PHONES</a></li>
-                    <li><a href="#">REVIEWS</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="phones.html">PHONES</a></li>
+                    <a class='dropdown-trigger btn red' href='#' data-target='dropdown1'>REVIEWS</a>
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="iphonereview.html"><i class="material-icons">phone_iphone</i>IPHONE</a></li>
+                        <li><a href="galaxy.html"><i class="material-icons">phone_iphone</i>SAMSUNG</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="oneplus.html"><i class="material-icons">phone_iphone</i>ONE PLUS</a></li>
+                        <li><a href="redmi.html"><i class="material-icons">phone_iphone</i>XIAOMI</a></li>
+                        <li><a href="oppo.html"><i class="material-icons">phone_iphone</i>OPPO</a></li>
+                        <li><a href="pixel.html"><i class="material-icons">phone_iphone</i>GOOGLE PIXEL</a></li>
+                    </ul>
                     <!-- <li><a href="#">CONTACTS</a></li>ss -->
                 </ul>
             </div>
@@ -169,6 +179,7 @@
                             <div>20</div>
                         </div>
                     </div>
+
                 </div>
                 <div id="reviews">
                 </div>
@@ -178,12 +189,12 @@
                                 <div class="card-panel red lighten-1">
                                         <h5>Review Form</h5>
                                         <div class="input-field">
-                                            <input type="text" placeholder="Name">
+                                            <input id ="name" type="text" placeholder="Enter Name">
                                         </div>
                                         <div class="input-field">
-                                            <input id="name" type="text" placeholder="Email">
+                                            <input id="email" type="text" placeholder="Enter Email">
                                         </div>
-                                        <div id="messagehere">
+                                        <div id="messageHere">
                                             <textarea class="materialize-textarea"
                                             placeholder="Write a Review Here"></textarea>
                                         </div>

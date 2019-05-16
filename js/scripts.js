@@ -1,5 +1,4 @@
-
-/ floating action button/ /
+// floating action button/ /
   $(document).ready(function () 
     $('.fixed-action-btn').floatingActionButton();
     $('.dropdown-trigger').dropdown();
@@ -19,3 +18,4 @@ $("#submitbutton").click(function () {
     alert("Fill out form and submit");
   }
 });
+
