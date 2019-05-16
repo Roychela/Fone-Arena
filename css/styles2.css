@@ -71,7 +71,6 @@ row:after {
     font-weight: bold;
     padding: 0px 10px;
     background-color: red;
-    min-height: 120px;
     text-align: left;
 }
 .logo-img {
