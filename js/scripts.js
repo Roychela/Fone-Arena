@@ -1,9 +1,9 @@
 // floating action button/ /
   $(document).ready(function () {
-    $('.fixed-action-btn').floatingActionButton();
-    $('.dropdown-trigger').dropdown();
     $('.slider').slider();
     $('.dropdown-trigger').dropdown();
+    $('.fixed-action-btn').floatingActionButton();
+
  });
 
 $("#submitbutton").click(function () {
